@@ -1,4 +1,4 @@
-// console.log("Hello world")
+console.log("Hello World")
 
 // semangat 45
 
@@ -7,11 +7,12 @@
  semangat
 */
 
+// cara pertama
 let message
 message = "Hello"
-
-let kata = "abcd"
-
+console.log(message)
+// cara kedua / simple
+let kata = "World"
 console.log(kata)
 
 var globalVariable = "Hello world"
@@ -21,11 +22,9 @@ const constant = "Purwadhika"
 
 let a = 10
 var b = 20
-
 {
     let a = 30
     var b = 40
 }
-
 console.log(a)
 console.log(b)

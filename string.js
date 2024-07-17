@@ -9,9 +9,11 @@ console.log(strLower)
 console.log(newStr)
 console.log(new1Str)
 console.log(str.charAt(5))
-console.log("Selamat".concat(" Belajar").toUpperCase())
+console.log("Selamat".concat(" Belajar").toLowerCase())
 
 let name = `Azza`
-let message = `hello, ${name}`
+let message = `saya ${name}`
+
 
 console.log(message)
+console.log("Nama" + " ".concat(message))
